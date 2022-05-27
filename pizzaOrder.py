@@ -32,12 +32,13 @@ def order_pizza():
     pizza_order["size"] = input("What size pizza would you like (small, medium, or large?)")
     pizza_order["num_toppings"] = int(input("How many toppings would you like?"))
 
-    pizza_order["toppings"] = input("What topping would you like?")
+  
     total_toppings = 0
-    while total_toppings < (pizza_order["num_toppings"] - 1):
-        pizza_order["toppings"] += input("What topping would you like?")
+    while len(pizza_order["toppings"]) < pizza_order["num_toppings"]:
+        current_topping = input("What topping would you like?")
+        pizza_order["toppings"].append(current_topping)
         total_toppings += 1
-    return pizza_order["toppings"]
+    return pizza_order
 
 # 3. Write a function calculate_price that takes the pizza_order dictionary as an argument and uses its values, as well as the values in size_prices, to calculate the price of the pizza ordered by the user based on the size and number of toppings. Return the calculated price.
 
@@ -51,6 +52,6 @@ def order_pizza():
 # Hint! Use the ''.join() list method to join the pizza toppings list together into a string.
 
 
-order_pizza()
+pizza_order = order_pizza()
+print(pizza_order)
 
-test
