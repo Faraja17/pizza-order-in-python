@@ -26,7 +26,7 @@ def order_pizza():
         "customer_name": "",
         "size": "",
         "num_toppings": 0,
-        "toppings": ""
+        "toppings": []
     }
     pizza_order["customer_name"] = input("What is your name?")
     pizza_order["size"] = input("What size pizza would you like (small, medium, or large?)")
