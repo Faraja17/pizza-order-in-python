@@ -21,7 +21,13 @@ size_prices = {
 # Return the pizza_order dictionary
 # Hint! Create the order_pizza dictionary with keys customer_name, size, num_toppings, and toppings at the beginning of the function and set the values to empty values based on the data type that goes in each field.
 
-def order_pizza()
+def order_pizza():
+    pizza_order = {
+        "customer_name": input("What is your name?")
+        "size": input("What size pizza would you like (small, medium, or large?)")
+        "num_toppings": input("How many toppings would you like?")
+        "toppings": input("What topping would you like?")
+    }
 
 
 # 3. Write a function calculate_price that takes the pizza_order dictionary as an argument and uses its values, as well as the values in size_prices, to calculate the price of the pizza ordered by the user based on the size and number of toppings. Return the calculated price.
