@@ -90,7 +90,7 @@ def calculate_price(pizza_order):
 ```
 
 Here is what I wrote about it in the commit description, "It was such an "aha" moment when I understood ` base_price = size_prices[pizza_order['size'].lower()][0]`!  I see that we are filling in the key using the size input!  And we must  be sure to make it all lowercase so that it matches regardless of the user input!. . . .
-  My approach using if statements was commendable, and maybe it would have eventually worked if I had continued fixing all the bugs, but I like this approach of first calculating the base price, then the per topping price,  the toppings total and finally the base price plus the toppings total.  It seems to be more logical, clear, and concise."
+  My approach using if statements was commendable, and maybe it would have eventually worked if I had continued fixing all the bugs, but I like this approach of first calculating the base price, then the per topping price,  the toppings total, and finally the base price plus the toppings total.  It seems to be more logical, clear, and concise."
 
 ### Continued development
 
