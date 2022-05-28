@@ -44,15 +44,10 @@ def order_pizza():
 # 3. Write a function calculate_price that takes the pizza_order dictionary as an argument and uses its values, as well as the values in size_prices, to calculate the price of the pizza ordered by the user based on the size and number of toppings. Return the calculated price.
 
 def calculate_price(pizza_order):
-    price = 0
-    if pizza_order["size"] == "small":
-        price = size_prices["small"[1]] + (size_prices["small"[2]] * pizza_order["num_toppings"])
-    elif pizza_order["size"] == "medium":
-        price = size_prices["medium"[1]] + (size_prices["medium"[2]] * pizza_order["num_toppings"])
-    elif pizza_order["size"] == "large":
-        price = size_prices["large"[1]] + (size_prices["large"[2]] * pizza_order["num_toppings"])
-
-    return price
+    base_price =  size_prices[pizza_order["size"].lower()][0]
+    per_topping_price = size_prices[pizza_order["size"].lower()][1]
+    toppings_total = pizza_order["num_toppings"] * per_topping_price
+    return base_price + toppings_total
 
 
 # 4. Call the 2 functions above and use their return values to print out a nicely-formatted summary of the customer's pizza order and the total price. 
@@ -68,9 +63,10 @@ def calculate_price(pizza_order):
 
 
 pizza_order = order_pizza()
+pizza_price = calculate_price(pizza_order)
 number_toppings =  str(len(pizza_order["toppings"]))
 
 
 print("Thank you for your order, " + pizza_order["customer_name"] + "! ")
 print("Order: " + pizza_order["size"] + " pizza with " + number_toppings+ " toppings (" + ", ".join(pizza_order["toppings"]) + ")")
-print("Total cost: $" + str(calculate_price(pizza_order)))
+print("Total cost: $" + str(pizza_price))
