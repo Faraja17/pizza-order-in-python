@@ -70,7 +70,7 @@ print("Total cost: $" + str(pizza_price))
 
 ## My process
 
-Although this was a live class, I missed it, so I followed along with the recording. This actually worked out better, because I was able to pause the video throughout the project and challenge myself to attempt each part of the code independently, including research and debugging, before revealing the solutions. Then, upon viewing the solutions, I compared my code to the solution code made necessary corrections and adjustments. Step 3, calculating the total price, was the most challenging for me, but it was extremely fulfilling once I understood the logic of the solution. I wrote very detailed notes for myself in the description section of the commits, so that I may review them to track my learning.  I should have also written brief summaries for each commit.  I will be sure to always do so in the future.
+Although this was a live class, I missed it, so I followed along with the recording. This actually worked out better, because I was able to pause the video throughout the project and challenge myself to attempt each part of the code independently, including research and debugging, before revealing the solutions. Then, upon viewing the solutions, I compared my code to the solution code, and made necessary corrections and adjustments. Step 3, calculating the total price, was the most challenging for me, but it was extremely fulfilling once I understood the logic of the solution. I wrote very detailed notes for myself in the description section of the commits, so that I may review them to track my learning.  I should have also written brief summaries for each commit.  I will be sure to always do so in the future.
 
 
 ### Built with
