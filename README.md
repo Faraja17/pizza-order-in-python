@@ -13,8 +13,7 @@ Descripton: This is my culminating project for the Girl Develop It! course, Pyth
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-- [The Directions](#frontend-mentor---qr-code-component) 
+- [Acknowledgments](#acknowledgments) 
 
 ## Overview
 
