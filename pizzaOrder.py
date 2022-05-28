@@ -70,3 +70,5 @@ number_toppings =  str(len(pizza_order["toppings"]))
 print("Thank you for your order, " + pizza_order["customer_name"] + "! ")
 print("Order: " + pizza_order["size"] + " pizza with " + number_toppings+ " toppings (" + ", ".join(pizza_order["toppings"]) + ")")
 print("Total cost: $" + str(pizza_price))
+
+update
