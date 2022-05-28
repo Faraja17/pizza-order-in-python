@@ -94,7 +94,7 @@ Here is what I wrote about it in the commit description, "It was such an "aha" m
 
 ### Continued development
 
-I plan to spend more time learning and practicing JavaScript and data structures and algorithims, then I want to come back to Python and continue coding along with the book *Automate the Boring Stuff* by Al Sweigart, and working on more projects. 
+I plan to spend more time learning and practicing JavaScript and data structures and algorithims, then I want to come back to Python and continue coding along with the book *Automate the Boring Stuff* by Al Sweigart, and working on more projects in Python. 
 
 ### Useful resources
 
