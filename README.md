@@ -100,7 +100,7 @@ I plan to spend more time learning and practicing JavaScript and data structures
 
 - [Python I: Learning Cohort (6-class series)](https://girldevelopit.com/events/details/girl-develop-it-python-presents-python-i-learning-cohort-6-class-series-1/) - This is the GDI Python course that I just completed.
 - [Python II: Learning Cohort (6-class series)](https://girldevelopit.com/events/details/girl-develop-it-python-presents-python-ii-cohort-6-class-series/) - This is an upcoming GDI Python course that will be offered four times per year.
-- 
+
 ## Author
 
 Faraja Thompson
