@@ -5,7 +5,7 @@ Descripton: This is my culminating project for the Girl Develop It! course, Pyth
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshots)
+  - [The Code](#the-code)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
