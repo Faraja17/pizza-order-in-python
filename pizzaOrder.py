@@ -1,3 +1,6 @@
+from os import truncate
+
+
 size_prices = {
     "small": [12, .50],
     "medium": [16, .75],
