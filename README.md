@@ -22,7 +22,7 @@ Through the creation of this interactive pizza order form, I was able to practic
 
 ### The Code
 
-```
+```python
 size_prices = {
     "small": [12, .50],
     "medium": [16, .75],
